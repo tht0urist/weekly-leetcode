@@ -1,3 +1,6 @@
+/**
+Naive solution of : https://leetcode.com/problems/remove-duplicates-from-sorted-array/
+**/
 class Solution {
     public int removeDuplicates(int[] nums) {
         Set numsSet = new TreeSet<Integer>(new Comparator<Integer>() {
